@@ -1,0 +1,97 @@
+/* quote.css */
+
+/* Centering and spacing the components */
+.Quotegen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f8ff; /* Light background color */
+    padding: 20px;
+  }
+  
+  /* Adjusting heading position further down */
+  h1 {
+    margin-top: 40px; /* Moves the heading down */
+    font-size: 28px;
+    color: #333333; /* Dark text color for contrast */
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  /* Button styles */
+  .Quotebutton {
+    margin-top: 20px; /* Adds space between heading and button */
+    padding: 12px 24px;
+    background-color: #8cd3c3; /* Soft greenish color */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Quotebutton:hover {
+    background-color: #66b2a6; /* Darker shade on hover */
+  }
+  
+  /* Box for quote and author */
+  .Quotebox {
+    margin-top: 30px; /* Adds space between the button and quote box */
+    padding: 20px;
+    background-color: #ffffff; /* White box with slight shadow */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Restricts the width of the box */
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Styling quote text */
+  .Quotetext {
+    font-size: 22px;
+    color: #555555; /* Light gray color for the quote */
+    font-style: italic;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  /* Styling the author text */
+  .Quoteauthor {
+    font-size: 18px;
+    font-weight: bold;
+    color: #8b8b8b; /* Light gray for the author */
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 600px) {
+    .Quotegen {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 24px; /* Slightly smaller font for mobile */
+      text-align: center;
+    }
+  
+    .Quotebutton {
+      padding: 10px 20px; /* Adjust button size for smaller screens */
+      font-size: 16px;
+    }
+  
+    .Quotebox {
+      padding: 15px; /* Reduce padding inside the box */
+      max-width: 90%; /* Ensure the box is not too wide on small screens */
+    }
+  
+    .Quotetext {
+      font-size: 20px; /* Reduce font size for smaller devices */
+    }
+  
+    .Quoteauthor {
+      font-size: 16px; /* Adjust author text size */
+    }
+  }
+  
